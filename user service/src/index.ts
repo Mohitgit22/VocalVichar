@@ -29,6 +29,6 @@ app.get("/", (req, res) => {
 const port = process.env.PORT;
 
 app.listen(port, () => {
-    console.log(`Server is running on port ${port}`);
+    console.log(`User Server is running on port ${port}`);
     connectDb();
 })
